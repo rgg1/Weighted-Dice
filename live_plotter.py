@@ -23,5 +23,4 @@ def animate(i):
     
 ani = FuncAnimation(plt.gcf(), animate, interval=1000)
 
-plt.tight_layout()
 plt.show()
