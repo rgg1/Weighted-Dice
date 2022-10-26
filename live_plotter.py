@@ -15,7 +15,9 @@ def animate(i):
     
     plt.plot(x, y1, label="Normal Die")
     plt.plot(x, y2, label="Weighted Die")
-    
+    plt.title("Weighted vs. Normal Die")
+    plt.xlabel("Rolls Thrown")
+    plt.ylabel("Total Sum")
     plt.legend(loc='upper left')
     plt.tight_layout()
     
