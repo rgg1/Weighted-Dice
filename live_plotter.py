@@ -4,14 +4,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 
-plt.style.use('fivethirtyeight')
-x_vals = []
-y_vals = []
-
 index = count()
 def animate(i):
-    # x_vals.append(next(index))
-    # y_vals.append(random.randint(0, 5))
     data = pd.read_csv('data.csv')
     x = data['num_rolls']
     y1 = data['total_normal']
